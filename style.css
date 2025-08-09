@@ -682,6 +682,10 @@ main {
     background-color: var(--color-text);
     color: var(--color-bg);
 }
+.butt2 > .but4, .butt2 > .but5 {
+    width: 130px;
+    padding: 10px 15px;
+}
 .sect3 {
     padding-block: 10px;
 }
@@ -1341,6 +1345,7 @@ hr {
     text-decoration: underline;
 }
 .chat {
+    z-index: 222;
     position: fixed;
     width: max-content;
     background-color: var(--color-text);
@@ -1356,6 +1361,10 @@ hr {
     background-color: var(--color-text);
     font-size: 16px;
     color: var(--background-color);
+    transition: .4s ease;
+}
+.chat p:hover {
+    background-color: var(--color-ash);
 }
 .chat p a {
     width: 100%;
